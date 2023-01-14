@@ -145,15 +145,12 @@ i {
         font-size: 5vw;
     }
 
-    .skill_award i {
-        width: 11vw;
+    .icons i {
+        width: 12vw;
+        height: 12vw;
         text-align: center;
+        padding: 8px;
     }
-
-    .interest icons i {
-        width: 11vw;
-    }
-
 
     .dot {
         height: 8px;
