@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: small;
+}
+
+:root {
+    --bgColor: rgb(225 124 124);
+    --borderColor: rgb(14, 35, 119);
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    max-width: 700px;
+}
+
+.main {
+    padding: 5px;
+}
+
+.container {
+    background-color: var(--bgColor);
+    /* max-width: 500px; */
+}
+
+.intro,
+.about_address,
+.work_container,
+.skills,
+.award_container,
+.interest_container,
+.education_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid var(--borderColor);
+}
+
+.about_address {
+    border-left: 5px solid var(--borderColor);
+}
+
+.name {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.org {
+    font-weight: 700;
+}
+
+.detail {
+    font-size: 0.9rem;
+}
+
+.award_container {
+    border-left: 5px solid var(--borderColor);
+}
+
+.award_name {
+    font-weight: 700;
+}
+
+.divider {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    border-radius: 50%;
+    border: 5px solid var(--borderColor);
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.interest_icon_container i {
+    background-color: var(--borderColor);
+    color: var(--bgColor);
+}
+
+@media only screen and (max-width : 450px) {
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .about,
+    .address {
+        font-size: 0.6rem;
+    }
+
+    .year,
+    .college_name,
+    .degree,
+    .award_year,
+    .award_detail,
+    .detail {
+        font-size: 0.7rem;
+    }
+
+    .org,
+    .award_name,
+
+    .skill_name {
+        font-size: 0.8rem;
+    }
+
+    i {
+        padding: 7px;
+        font-size: 4vw;
+    }
+
+    .dot {
+        height: 8px;
+        width: 8px;
+    }
+
+    .org {
+        font-size: 0.8rem;
+    }
+
+
+}
