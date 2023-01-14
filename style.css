@@ -98,11 +98,16 @@ i {
     font-size: 2rem;
 }
 
-.fa-clipboard-list {}
+.icons i {
+    width: 4.5rem;
+    text-align: center;
+}
+
 
 .interest_icon_container i {
     background-color: var(--borderColor);
     color: var(--bgColor);
+    text-align: center;
 }
 
 @media only screen and (max-width : 450px) {
@@ -140,6 +145,14 @@ i {
         font-size: 5vw;
     }
 
+    .skill_award i {
+        width: 11vw;
+        text-align: center;
+    }
+
+    .interest icons i {
+        width: 11vw;
+    }
 
 
     .dot {
