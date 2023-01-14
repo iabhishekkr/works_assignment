@@ -20,9 +20,6 @@ body {
     max-width: 700px;
 }
 
-.main {
-    padding: 5px;
-}
 
 .container {
     background-color: var(--bgColor);
@@ -48,6 +45,10 @@ body {
 .name {
     font-weight: 700;
     font-size: xx-large;
+}
+
+.position {
+    margin-left: 3px;
 }
 
 .org {
@@ -97,6 +98,8 @@ i {
     font-size: 2rem;
 }
 
+.fa-clipboard-list {}
+
 .interest_icon_container i {
     background-color: var(--borderColor);
     color: var(--bgColor);
@@ -128,10 +131,16 @@ i {
         font-size: 0.8rem;
     }
 
+    .icons {
+        font-size: 3vw;
+    }
+
     i {
         padding: 7px;
-        font-size: 4vw;
+        font-size: 5vw;
     }
+
+
 
     .dot {
         height: 8px;
