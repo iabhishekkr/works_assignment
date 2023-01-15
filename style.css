@@ -72,7 +72,7 @@ body {
 .divider {
     height: 5px;
     width: 5px;
-    background-color: black;
+    background-color: var(--borderColor);
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 2px;
@@ -86,7 +86,7 @@ body {
 .dot {
     height: 12px;
     width: 12px;
-    background-color: black;
+    background-color: var(--borderColor);
     border-radius: 50%;
     display: inline-block;
 }
