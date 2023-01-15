@@ -67,6 +67,7 @@ body {
     font-weight: 700;
 }
 
+
 .divider {
     height: 5px;
     width: 5px;
@@ -155,6 +156,12 @@ i {
     .dot {
         height: 8px;
         width: 8px;
+    }
+
+    .divider {
+        height: 3px;
+        width: 3px;
+
     }
 
     .org {
