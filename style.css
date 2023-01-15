@@ -78,6 +78,11 @@ body {
     margin-bottom: 2px;
 }
 
+.small {
+    height: 4px;
+    width: 4px;
+}
+
 .dot {
     height: 12px;
     width: 12px;
@@ -170,6 +175,11 @@ i {
         height: 3px;
         width: 3px;
 
+    }
+
+    .small {
+        height: 2px;
+        width: 2px;
     }
 
     .org {
