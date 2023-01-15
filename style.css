@@ -24,7 +24,6 @@ body {
 
 .container {
     background-color: var(--bgColor);
-    /* max-width: 500px; */
 }
 
 .intro,
@@ -41,11 +40,13 @@ body {
 
 .about_address {
     border-left: 3px solid var(--borderColor);
+    line-height: 1.1rem;
 }
 
 .name {
     font-weight: 700;
-    font-size: xx-large;
+    font-size: 2.3rem;
+    line-height: 2.9rem;
 }
 
 .position {
@@ -67,7 +68,6 @@ body {
 .award_name {
     font-weight: 700;
 }
-
 
 .divider {
     height: 5px;
@@ -114,12 +114,18 @@ i {
 
 @media only screen and (max-width : 450px) {
     .name {
-        font-size: 1.5rem;
+        font-size: 6vw;
+        line-height: 1.5rem;
     }
 
+    .position,
     .about,
     .address {
         font-size: 0.6rem;
+    }
+
+    .about_address {
+        line-height: 2.5vw;
     }
 
     .year,
